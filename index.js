@@ -19,7 +19,7 @@ async function handleRequest(request) {
     const imgComponents = new ImageComponents(
       request,
       ALLOWED_ORIGINS.split(','),
-      CUSTOM_HEADER
+  /*    CUSTOM_HEADER */
     )
 
     if (!imgComponents.isResizeAllowed()) {
